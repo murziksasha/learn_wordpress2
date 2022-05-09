@@ -1,0 +1,52 @@
+.finish {
+  min-height: 447px;
+  text-align: center;
+  padding: 86px 433px 69px 435px;
+  background: url('../../img/bg/second_bg.png') center center/cover no-repeat;
+
+  &__body {
+    color:#efefefef;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 18px;  
+    text-transform: uppercase;
+  }
+
+  hr{
+    margin-bottom: 40px;
+  }
+
+    &__describe {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &-rnd{
+        position: relative;
+        width: 118px;
+        height: 118px;
+        background-color: $blue;
+        border-radius: 50%;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+      }
+
+    &-elem {
+      position: relative;
+    }
+
+    &-par {
+      position:absolute;
+      line-height: 28px;
+      font-size: 17px;
+      font-weight: 300;
+      width: 235px;
+      left: -54px;
+      top: 138px;
+    }
+  }
+}

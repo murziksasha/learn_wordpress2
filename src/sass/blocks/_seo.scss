@@ -1,0 +1,35 @@
+.seo {
+  background: url('../../img/bg/woman_bg.png') no-repeat;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  
+
+  &__body{
+
+    max-width:1379px;
+    min-height: 502px;
+    width: 750px;
+
+  }
+
+  &__title {
+    font-family: 'Roboto-Bold';
+    font-size: 30px;
+    color:#299cbd;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+  }
+
+  &__par {
+    font-family: 'Roboto-Thin';
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+    span{
+      font-family: 'Roboto-Medium';
+    }
+  }
+}
+

@@ -1,0 +1,26 @@
+.footer {
+  text-align: center;
+  background: #1A1A1A;
+  min-height: 166px;
+  color: #888888;
+  display: block;
+  position: relative;
+  padding: 55px 400px 68px;
+
+  &__confidence {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  &__vl {
+    border-right: 2px solid #888;
+    margin-right: 10px;
+    padding-right:10px;
+
+  }
+
+  &__conf {
+  }
+}

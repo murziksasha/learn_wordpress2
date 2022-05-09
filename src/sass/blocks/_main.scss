@@ -1,0 +1,42 @@
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+
+}
+
+.container{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+
+.wrapper{
+    width: 1140px;
+}
+
+
+@import "header";
+@import "button/button";
+@import "waiting";
+@import "seo";
+@import "finish";
+@import "gift";
+@import "info";
+@import "footer";
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+.what {
+  padding: 88px 0 75px;
+  display: flex;
+  justify-content: center;
+  min-height: 607px;
+  text-align: center;
+  background-color: $grey;
+  margin-bottom: 47px;
+
+
+  &__title {
+    font-family: 'Roboto-Regular';
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 18px;
+    &-free{
+      font-family: 'Roboto-Regular';
+      color: #4A4A4A;
+      font-size: 23px;
+      margin-bottom: 46px;
+    }
+  }
+
+  &__line {
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+    margin-bottom: 18.5px;
+    border:none;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    width: 339px;
+  }
+
+  &__info-img {
+    margin-bottom: 26px;
+  }
+
+  &__info-p {
+    font-family: 'Roboto-Thin';
+    width: 370px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+

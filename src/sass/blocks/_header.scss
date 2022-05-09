@@ -1,0 +1,100 @@
+
+    .btn{
+            margin-bottom: 71px;
+        }
+
+.header{
+    background: url(../../img/bg/main_bg.png) center center/cover no-repeat;
+    height: 800px;
+    max-width: 1920px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+
+        &-img{
+            margin-top: 15px;
+        }
+        
+        &-par{
+            color:#fff;
+            text-transform: uppercase;
+            width: 201px;
+            height: 24px;
+            font-size: 15px;
+            position:absolute;
+            top: 102px;
+        }
+    }
+
+    &__title {
+        position: relative;
+        color: $gold;
+        text-align: center;
+        margin-top:  53px;
+
+
+
+        &-simple{
+            display: flex;
+            align-items:center;
+            &.line{
+                display:inline;
+                width: 292px;
+                height: 2px;
+            }
+        }
+
+
+        
+        h1{
+            font-family: 'Roboto-Bold';
+            font-size: 80px;
+            font-weight: bold;
+            color:#fff;
+            text-transform: uppercase;
+            height: 59px;
+            max-width: 547px;
+            width: 50%;
+            margin-bottom: 26px;
+        }
+        h2{ 
+            margin-top: 25px;
+            margin-bottom: 22.5px;
+            text-transform: uppercase;
+            font-size: 41px;
+        }
+    }
+
+    &__describe {
+        color:#fff;
+        p{
+            font-family: 'Roboto-Thin';
+            line-height: 28px;
+            font-size: 21px;
+            margin-bottom: 72px;
+            span{
+                color: $gold;
+            }
+        }
+
+    }
+
+    &__finish {
+        &-more{
+            font-family: "Roboto-Thin";
+            margin-bottom: 14px;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+    }
+
+}
